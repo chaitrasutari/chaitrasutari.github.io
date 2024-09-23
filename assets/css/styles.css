@@ -609,8 +609,20 @@ img {
 }
 
 .qualification__subtitle{
-  display: inline-block;
+  display: inline;
   font-size: var(--small-font-size);
+}
+
+.qualification_work_type{
+  display: inline;
+  font-size: x-small;
+  margin-bottom: var(--mb-1);
+}
+
+.qualification_description{
+  display: inline-block;
+  font-size: var(--smaller-font-size);
+  margin-top: var(--mb-1);
   margin-bottom: var(--mb-1);
 }
 
@@ -712,7 +724,7 @@ img {
 }
 
 .services__modal-service{
-  display: flex;
+  display:flex;
 }
 
 .services__modal-title{
