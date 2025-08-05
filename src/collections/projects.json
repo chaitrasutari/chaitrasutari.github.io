@@ -1,38 +1,32 @@
 [
 	{
-		"name": "TempMail.Best",
-		"description": "Best Temporary Email.",
-		"image": "/assets/images/projects/tempmail.best.png",
-		"url": "https://tempmail.best"
+		"name": "Dual-Stage Toxic Comment Detection System",
+		"description": "A dual-stage ML system for detecting and categorizing toxic comments using classical and deep models, with bias mitigation and fairness-aware tuning. Achieves high accuracy (F1 = 0.92) on a 2M+ dataset, with open-source code and strong real-world applicability.",
+		"image": "/assets/images/projects/dual_stage_toxic_comment_detection.png",
+		"url": "https://github.com/chaitrasutari/dual-stage-toxic-comment-detection-system"
 	},
 	{
-		"name": "DNS.Surf",
-		"description": "Querying DNS Resolution Results in Different Regions Worldwide.",
-		"image": "/assets/images/projects/dns.surf.png",
+		"name": "MediCareNet – Predictive Healthcare Insights using ML & MLOps",
+		"description": "MediCareNet is an end-to-end ML pipeline for predicting hospital readmissions from EHR data, using Truncated SVD and XGBoost, served via a real-time Flask API and fully containerized with Docker for scalable deployment.",
+		"image": "/assets/images/projects/MediCareNet.png",
 		"url": "https://dns.surf"
 	},
 	{
-		"name": "HTML.ZONE",
-		"description": "Web Toolbox.",
-		"image": "/assets/images/projects/html.zone.png",
-		"url": "https://html.zone"
+		"name": "Ask My Resume - Streamlit RAG Application",
+		"description": "A mini project that lets you interact with your resume PDF using Retrieval-Augmented Generation (RAG) via LangChain.",
+		"image": "/assets/images/projects/AskMyResume.png",
+		"url": "https://github.com/chaitrasutari/ask-my-resume"
 	},
 	{
-		"name": "Sink",
-		"description": "A Simple / Speedy / Secure Link Shortener with Analytics.",
-		"image": "/assets/images/projects/sink.cool.png",
-		"url": "https://sink.cool"
+		"name": "VisionIQ",
+		"description": "VisionIQ is a real-time object detection system built with fine-tuned transformer models, achieving 90%+ accuracy on live video feeds. It features a React dashboard for visual analytics, real-time inference via FastAPI using REST/WebSocket APIs.",
+		"image": "/assets/images/projects/VisionIQ.png",
+		"url": "https://github.com/chaitrasutari/VisionIQ"
 	},
 	{
-		"name": "BroadcastChannel",
-		"description": "Turn your Telegram Channel into a MicroBlog.",
-		"image": "/assets/images/projects/broadcast-channel.png",
-		"url": "https://github.com/ccbikai/BroadcastChannel"
-	},
-	{
-		"name": "L(O*62).ONG",
-		"description": "Make your URL looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooonger",
-		"image": "/assets/images/projects/long.png",
-		"url": "https://loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.ong"
+		"name": "SmartDocAI",
+		"description": "SmartDoc AI is a serverless NLP system for intelligent document summarization and Q&A, combining OCR (Textract, Tesseract), BERT fine-tuned on SQuAD2.0, and semantic search via Pinecone and MongoDB. Deployed with FastAPI and AWS Lambda, it enables scalable, real-time document understanding.",
+		"image": "/assets/images/projects/SmartDocAI.png",
+		"url": "https://github.com/chaitrasutari/SmartDocAI"
 	}
 ]
