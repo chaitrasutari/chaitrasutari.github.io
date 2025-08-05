@@ -1,0 +1,90 @@
+---
+import Button from "../components/button.astro";
+import Projects from "../components/home/projects.astro";
+import Separator from "../components/home/separator.astro";
+import Writings from "../components/home/writings.astro";
+import Layout from "../layouts/main.astro";
+---
+
+<Layout title="Chaitra Sutari">
+  <div
+    class="relative z-20 w-full max-w-4xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 xl:px-0"
+  >
+    <div class="flex flex-col items-center md:flex-row">
+      <!-- Left: Text Content -->
+      <div class="relative w-full md:w-1/2">
+        <h1 class="mb-5 leading-tight text-4xl md:text-5xl lg:text-6xl dark:text-white font-bold">
+          <span class="font-normal text-black-500 dark:text-neutral-400">Hi, I'm</span>
+          <br />
+          <span class="font-extrabold text-black dark:text-white tracking-tight">
+            Chaitra Sutari
+          </span>
+        </h1>
+        <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
+          I’m a Machine Learning Engineer who values engineering clarity, scalable architecture, and clean handoffs. My focus is on building ML systems that are not just accurate, but reliable, reproducible, and easy to integrate into real products.
+          <br class="hidden lg:block" />
+          I care deeply about simplicity in design, traceability in pipelines, and delivering AI that works in the hands of users—not just in notebooks.
+        </p>
+
+        <p class="mb-2 font-semibold text-neutral-800 dark:text-neutral-200">
+          My work spans:
+        </p>
+        <ul
+          class="py-2 space-y-[3px] text-sm list-disc list-inside text-neutral-500 dark:text-neutral-400"
+        >
+          <li>LLM & NLP Systems (RAG, Transformers, LangChain)</li>
+          <li>End-to-End ML Pipelines with CI/CD</li>
+          <li>Cloud-native MLOps (AWS, Docker, MLflow)</li>
+          <li>Computer Vision with Transformers</li>
+          <li>AI Tools that solve real-world problems</li>
+        </ul>
+     <div class="mt-6 flex flex-wrap gap-4">
+  <Button text="Contact Me" link="mailto:sutarichaitra12@gmail.com" />
+  <Button text="Connect on LinkedIn" link="https://linkedin.com/in/chaitrasutari" />
+</div>
+
+
+      </div>
+
+      <!-- Right: Original Image Layout -->
+      <div
+        class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0"
+      >
+        <div class="relative z-50 w-full">
+          <div
+            class="absolute bottom-0 z-40 w-16 h-16 -translate-x-6 -translate-y-1/2 lg:top-auto top-0 lg:-translate-y-[330px] rounded-full"
+          >
+            <span
+              class="relative z-20 flex items-center justify-center w-full h-full text-2xl border-8 border-white rounded-full dark:border-neutral-950 bg-neutral-100 dark:bg-neutral-900"
+            >
+              <span
+                class="flex items-center justify-center w-full h-full bg-white border border-dashed rounded-full dark:bg-neutral-950 border-neutral-300 dark:border-neutral-700"
+                >👋</span
+              >
+            </span>
+          </div>
+          <div class="relative z-30 px-10 md:px-0 w-full max-w-md mx-auto">
+            <img
+              src="/assets/images/image.png"
+              loading="eager"
+              decoding="auto"
+              class="w-full h-auto object-contain scale-[1.00] translate-x-8"
+              alt="Chaitra Sutari"
+            />
+          </div>
+          </div>
+          <div
+            class="absolute bottom-0 left-0 z-20 w-full h-full lg:h-[450px] translate-x-12 -translate-y-px border border-dashed rounded-2xl bg-gradient-to-r dark:from-neutral-950 dark:via-black dark:to-neutral-950 from-white via-neutral-50 to-white border-neutral-300 dark:border-neutral-700"
+          >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <Separator text="Featured Projects" />
+  <Projects />
+
+  <!-- <Separator text="Insights & Writings" />
+  <Writings /> -->
+</Layout>
